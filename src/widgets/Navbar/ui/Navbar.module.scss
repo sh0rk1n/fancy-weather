@@ -1,0 +1,130 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+}
+.ListBox, .Switch {
+  margin-left: 10px;
+}
+
+.refresh {
+    height: 44px;
+    width: 44px;
+  &:active {
+      background: red;
+  }
+}
+
+.ListBox {
+  position: relative;
+}
+
+.trigger {
+  width: 71px;
+  height: 44px;
+  background: rgba(174, 181, 185, 0.5);
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.arrow {
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+
+.Switch {
+  width: 88px;
+  height: 44px;
+}
+
+.farengeit {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  width: 44px;
+  height: 44px;
+  background: rgba(76, 82, 85, 0.4);
+  border-radius: 6px 0 0 6px;
+
+}
+
+.celcis {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  background: rgba(174, 181, 185, 0.5);
+  border-radius: 0 6px 6px 0;
+}
+
+.Search {
+display: flex;
+}
+
+.SearchWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  height: 44px;
+  width: 274px;
+  padding-left: 15px;
+  background: rgba(76, 82, 85, 0.4);
+  border: 1px solid rgba(228, 227, 227, 0.2);
+  border-radius: 4px 0 0 4px;
+  color: #fff;
+
+  &::placeholder {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    opacity: 1;
+  }
+
+  &:focus {
+    border: none;
+  }
+
+}
+
+.microphone {
+  position: absolute;
+  right: 13px;
+  padding-top:6px;
+ }
+
+
+.SearchBtn {
+  width: 101px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background: rgba(174, 181, 185, 0.5);
+  border-radius: 0 6px 6px 0;
+}
+
+
+
+
+
+
+
+
+
+
